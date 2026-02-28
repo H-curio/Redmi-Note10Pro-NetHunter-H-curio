@@ -134,8 +134,9 @@ Este proyecto se desarrolla exclusivamente en entornos autorizados y controlados
 ---
 
 ## 👨‍💻 Autor
-Miguel A.L 
-GitHub:H-curio
+- Miguel A.L 
 
-Proyecto Red Team Móvil  
-Laboratorio personal documentado
+- GitHub: H-curio
+
+- Proyecto Red Team Móvil  
+- Laboratorio personal documentado
