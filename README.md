@@ -1,1 +1,141 @@
 # Redmi-Note10Pro-NetHunter-H-curio
+# 📱 Proyecto: Plataforma Red Team Móvil – Kali NetHunter FULL
+
+## 📌 Resumen del Proyecto
+
+Este proyecto documenta la conversión de un Xiaomi Redmi Note 10 Pro en una plataforma móvil de pruebas de penetración utilizando Kali NetHunter FULL.
+
+El objetivo fue transformar el dispositivo en una estación portátil de laboratorio capaz de ejecutar herramientas de enumeración, explotación y análisis de red dentro de un entorno controlado y autorizado.
+
+Se documenta todo el proceso técnico:
+
+- Desbloqueo de bootloader
+- Instalación de root con Magisk
+- Instalación de Kali NetHunter FULL
+- Validación de entorno
+- Pruebas SSH
+- Enumeración de red
+- Configuración base para laboratorio
+
+---
+
+## 🎯 Objetivo Técnico
+
+Construir una herramienta móvil funcional para:
+
+- Pruebas de penetración TCP/IP
+- Laboratorios controlados (Windows / Ubuntu)
+- Enumeración de red
+- Explotación en entornos autorizados
+- Uso de herramientas como:
+  - Nmap
+  - Metasploit
+  - Hydra
+  - SQLmap
+  - Python
+  - SSH
+  - Entorno gráfico XFCE
+
+---
+
+## 📱 Dispositivo Utilizado
+
+| Especificación | Detalle |
+|---------------|----------|
+| Modelo | Xiaomi Redmi Note 10 Pro |
+| Procesador | Snapdragon 732G |
+| RAM | 6/8 GB |
+| Almacenamiento | 128 GB |
+| Sistema | Android 13 |
+| Bootloader | Desbloqueado |
+| Root | Magisk |
+| NetHunter | FULL ARM64 (Proot) |
+
+---
+
+## 🔧 Fases del Proyecto
+
+### 1️⃣ Desbloqueo de Bootloader
+- Herramienta: Mi Unlock Tool
+- Tiempo de espera Xiaomi: ~168 horas
+- Resultado: Bootloader desbloqueado
+
+### 2️⃣ Instalación de Root
+- Herramienta: Magisk
+- Método: Parcheo de imagen boot
+- Resultado: Acceso superusuario confirmado
+
+### 3️⃣ Instalación Kali NetHunter FULL
+- Entorno: Termux
+- Descarga: ~2.1GB
+- Instalación completa exitosa
+- Sistema Kali funcional en proot
+
+---
+
+## 🖥 Entorno Configurado
+
+- Kali Linux operativo
+- Acceso root funcional
+- SSH cliente operativo
+- Metasploit Framework
+- Herramientas de enumeración
+- Entorno gráfico XFCE funcional
+- VNC configurado
+
+---
+
+## 📡 Pruebas Realizadas
+
+- Conexión SSH hacia Windows
+- Enumeración con Nmap
+- Verificación de puertos abiertos
+- Validación de privilegios
+- Instalación completa de paquetes Kali
+
+Resultado: Plataforma estable para laboratorio de red controlado.
+
+---
+
+## ⚠ Limitaciones Actuales
+
+- Sin kernel NetHunter personalizado
+- Sin monitor mode interno
+- Sin inyección WiFi interna
+
+La instalación es FULL en modo proot, lo que permite pruebas TCP/IP completas pero no hacking WiFi físico interno.
+
+---
+
+## 📈 Estado Actual del Proyecto
+
+✔ Entorno estable  
+✔ Herramientas instaladas  
+✔ Root funcional  
+✔ Laboratorio SSH operativo  
+✔ Documentación estructurada  
+
+---
+
+## 🧠 Expansión Futura
+
+- Integración con adaptadores WiFi externos
+- Documentación de explotación avanzada
+- Escalada de privilegios
+- Pivoting
+- Integración IoT
+
+---
+
+## ⚖ Aviso Legal
+
+Este proyecto se desarrolla exclusivamente en entornos autorizados y controlados con fines educativos.
+
+---
+
+## 👨‍💻 Autor
+Miguel A.L 
+GitHub:H-curio
+
+Proyecto Red Team Móvil  
+Laboratorio personal documentado
